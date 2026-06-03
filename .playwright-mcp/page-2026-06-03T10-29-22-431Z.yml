@@ -1,0 +1,175 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e90]:
+          - generic [ref=e91]:
+            - generic [ref=e94]: Create a pricing card component showing a plan name, price, a list of features, and a subscribe button.
+            - img [ref=e97]
+          - generic [ref=e100]:
+            - img [ref=e103]
+            - generic [ref=e108]:
+              - generic [ref=e111]: Creating App.jsx
+              - separator [ref=e112]
+              - generic [ref=e115]: Creating PricingCard.jsx
+              - separator [ref=e116]
+              - generic [ref=e117]:
+                - paragraph [ref=e118]: "Here's what was built:"
+                - heading "Structure" [level=3] [ref=e119]
+                - list [ref=e120]:
+                  - listitem [ref=e121]:
+                    - strong [ref=e122]:
+                      - code [ref=e567]: /App.jsx
+                    - text: — Renders three pricing cards side-by-side on a dark atmospheric canvas with a warm radial glow.
+                  - listitem [ref=e124]:
+                    - strong [ref=e125]:
+                      - code [ref=e568]: /components/PricingCard.jsx
+                    - text: — A reusable card component that accepts
+                    - code [ref=e569]: name
+                    - text: ","
+                    - code [ref=e570]: price
+                    - text: ","
+                    - code [ref=e571]: description
+                    - text: ","
+                    - code [ref=e572]: features
+                    - text: ","
+                    - code [ref=e573]: accent
+                    - text: ", and"
+                    - code [ref=e574]: badge
+                    - text: props.
+                - heading "Design Choices" [level=3] [ref=e133]
+                - list [ref=e134]:
+                  - listitem [ref=e135]:
+                    - strong [ref=e136]: Dark editorial aesthetic
+                    - text: on a
+                    - code [ref=e575]: stone-950
+                    - text: background with subtle amber/rose radial glows for depth.
+                  - listitem [ref=e138]:
+                    - strong [ref=e139]: Serif display font
+                    - text: for the price and page headline to give it a premium, editorial feel.
+                  - listitem [ref=e140]:
+                    - strong [ref=e141]: Mono font accents
+                    - text: for plan names, the
+                    - code [ref=e576]: /mo
+                    - text: label, and the CTA button for a technical contrast.
+                  - listitem [ref=e143]:
+                    - strong [ref=e144]: Three distinct accent colors
+                    - text: — amber, rose, and teal — so each tier has its own identity.
+                  - listitem [ref=e145]:
+                    - strong [ref=e146]: Gradient border
+                    - text: on the highlighted "Pro" card using a
+                    - code [ref=e577]: p-px
+                    - text: wrapper trick with a rose gradient, plus a floating badge.
+                  - listitem [ref=e148]:
+                    - strong [ref=e149]: Feature list
+                    - text: uses checkmarks (colored per plan) for included features and a strikethrough + muted X for excluded ones.
+                  - listitem [ref=e150]:
+                    - strong [ref=e151]: Hover lift
+                    - text: (
+                    - code [ref=e578]: "-translate-y-1"
+                    - text: ) on all cards with a smooth transition for interactivity.
+        - generic [ref=e20]:
+          - textbox "Describe the React component you want to create..." [ref=e21]
+          - button [disabled] [ref=e22]:
+            - img [ref=e23]
+    - separator [ref=e26]
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - tablist [ref=e31]:
+          - tab "Preview" [active] [selected] [ref=e32]
+          - tab "Code" [ref=e33]
+        - generic [ref=e34]:
+          - button "Sign In" [ref=e35]
+          - button "Sign Up" [ref=e36]
+      - iframe [ref=e580]:
+        - main [ref=f16e3]:
+          - generic [ref=f16e4]:
+            - paragraph [ref=f16e5]: Simple pricing
+            - heading "Pick your plan." [level=1] [ref=f16e6]
+            - paragraph [ref=f16e7]: No hidden fees. No surprises. Cancel anytime.
+          - generic [ref=f16e8]:
+            - generic [ref=f16e10]:
+              - paragraph [ref=f16e11]: Starter
+              - generic [ref=f16e12]:
+                - generic [ref=f16e13]: $9
+                - generic [ref=f16e14]: /mo
+              - paragraph [ref=f16e15]: Perfect for individuals and side projects.
+              - list [ref=f16e16]:
+                - listitem [ref=f16e17]:
+                  - img [ref=f16e19]
+                  - generic [ref=f16e21]: 3 projects
+                - listitem [ref=f16e22]:
+                  - img [ref=f16e24]
+                  - generic [ref=f16e26]: 5 GB storage
+                - listitem [ref=f16e27]:
+                  - img [ref=f16e29]
+                  - generic [ref=f16e31]: Basic analytics
+                - listitem [ref=f16e32]:
+                  - img [ref=f16e34]
+                  - generic [ref=f16e36]: Email support
+                - listitem [ref=f16e37]:
+                  - img [ref=f16e39]
+                  - generic [ref=f16e42]: Custom domains
+                - listitem [ref=f16e43]:
+                  - img [ref=f16e45]
+                  - generic [ref=f16e48]: Team collaboration
+              - button "Get Starter" [ref=f16e49] [cursor=pointer]
+            - generic [ref=f16e50]:
+              - generic [ref=f16e51]: Most Popular
+              - generic [ref=f16e52]:
+                - paragraph [ref=f16e53]: Pro
+                - generic [ref=f16e54]:
+                  - generic [ref=f16e55]: $29
+                  - generic [ref=f16e56]: /mo
+                - paragraph [ref=f16e57]: For growing teams that need more power.
+                - list [ref=f16e58]:
+                  - listitem [ref=f16e59]:
+                    - img [ref=f16e61]
+                    - generic [ref=f16e63]: Unlimited projects
+                  - listitem [ref=f16e64]:
+                    - img [ref=f16e66]
+                    - generic [ref=f16e68]: 50 GB storage
+                  - listitem [ref=f16e69]:
+                    - img [ref=f16e71]
+                    - generic [ref=f16e73]: Advanced analytics
+                  - listitem [ref=f16e74]:
+                    - img [ref=f16e76]
+                    - generic [ref=f16e78]: Priority support
+                  - listitem [ref=f16e79]:
+                    - img [ref=f16e81]
+                    - generic [ref=f16e83]: Custom domains
+                  - listitem [ref=f16e84]:
+                    - img [ref=f16e86]
+                    - generic [ref=f16e89]: Team collaboration
+                - button "Get Pro" [ref=f16e90] [cursor=pointer]
+            - generic [ref=f16e92]:
+              - paragraph [ref=f16e93]: Scale
+              - generic [ref=f16e94]:
+                - generic [ref=f16e95]: $79
+                - generic [ref=f16e96]: /mo
+              - paragraph [ref=f16e97]: Enterprise-grade for serious operations.
+              - list [ref=f16e98]:
+                - listitem [ref=f16e99]:
+                  - img [ref=f16e101]
+                  - generic [ref=f16e103]: Unlimited projects
+                - listitem [ref=f16e104]:
+                  - img [ref=f16e106]
+                  - generic [ref=f16e108]: 500 GB storage
+                - listitem [ref=f16e109]:
+                  - img [ref=f16e111]
+                  - generic [ref=f16e113]: Full analytics suite
+                - listitem [ref=f16e114]:
+                  - img [ref=f16e116]
+                  - generic [ref=f16e118]: 24/7 dedicated support
+                - listitem [ref=f16e119]:
+                  - img [ref=f16e121]
+                  - generic [ref=f16e123]: Custom domains
+                - listitem [ref=f16e124]:
+                  - img [ref=f16e126]
+                  - generic [ref=f16e128]: Team collaboration
+              - button "Get Scale" [ref=f16e129] [cursor=pointer]
+  - alert [ref=e47]
+  - generic [ref=e155]:
+    - alert
+    - alert

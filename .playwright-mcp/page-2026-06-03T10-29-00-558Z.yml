@@ -1,0 +1,218 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e90]:
+          - generic [ref=e91]:
+            - generic [ref=e94]: Create a pricing card component showing a plan name, price, a list of features, and a subscribe button.
+            - img [ref=e97]
+          - generic [ref=e100]:
+            - img [ref=e103]
+            - generic [ref=e108]:
+              - generic [ref=e111]: Creating App.jsx
+              - separator [ref=e112]
+              - generic [ref=e115]: Creating PricingCard.jsx
+              - separator [ref=e116]
+              - generic [ref=e117]:
+                - paragraph [ref=e118]: "Here's what was built:"
+                - heading "Structure" [level=3] [ref=e119]
+                - list [ref=e120]:
+                  - listitem [ref=e121]:
+                    - strong [ref=e122]:
+                      - code [ref=e156]: /App.jsx
+                    - text: — Renders three pricing cards side-by-side on a dark atmospheric canvas with a warm radial glow.
+                  - listitem [ref=e124]:
+                    - strong [ref=e125]:
+                      - code [ref=e157]: /components/PricingCard.jsx
+                    - text: — A reusable card component that accepts
+                    - code [ref=e158]: name
+                    - text: ","
+                    - code [ref=e159]: price
+                    - text: ","
+                    - code [ref=e160]: description
+                    - text: ","
+                    - code [ref=e161]: features
+                    - text: ","
+                    - code [ref=e162]: accent
+                    - text: ", and"
+                    - code [ref=e163]: badge
+                    - text: props.
+                - heading "Design Choices" [level=3] [ref=e133]
+                - list [ref=e134]:
+                  - listitem [ref=e135]:
+                    - strong [ref=e136]: Dark editorial aesthetic
+                    - text: on a
+                    - code [ref=e164]: stone-950
+                    - text: background with subtle amber/rose radial glows for depth.
+                  - listitem [ref=e138]:
+                    - strong [ref=e139]: Serif display font
+                    - text: for the price and page headline to give it a premium, editorial feel.
+                  - listitem [ref=e140]:
+                    - strong [ref=e141]: Mono font accents
+                    - text: for plan names, the
+                    - code [ref=e165]: /mo
+                    - text: label, and the CTA button for a technical contrast.
+                  - listitem [ref=e143]:
+                    - strong [ref=e144]: Three distinct accent colors
+                    - text: — amber, rose, and teal — so each tier has its own identity.
+                  - listitem [ref=e145]:
+                    - strong [ref=e146]: Gradient border
+                    - text: on the highlighted "Pro" card using a
+                    - code [ref=e166]: p-px
+                    - text: wrapper trick with a rose gradient, plus a floating badge.
+                  - listitem [ref=e148]:
+                    - strong [ref=e149]: Feature list
+                    - text: uses checkmarks (colored per plan) for included features and a strikethrough + muted X for excluded ones.
+                  - listitem [ref=e150]:
+                    - strong [ref=e151]: Hover lift
+                    - text: (
+                    - code [ref=e167]: "-translate-y-1"
+                    - text: ) on all cards with a smooth transition for interactivity.
+        - generic [ref=e20]:
+          - textbox "Describe the React component you want to create..." [ref=e21]
+          - button [disabled] [ref=e22]:
+            - img [ref=e23]
+    - separator [ref=e26]
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - tablist [ref=e31]:
+          - tab "Preview" [ref=e32]
+          - tab "Code" [active] [selected] [ref=e33]
+        - generic [ref=e34]:
+          - button "Sign In" [ref=e35]
+          - button "Sign Up" [ref=e36]
+      - generic [ref=e168]:
+        - generic [ref=e174]:
+          - generic [ref=e175]:
+            - generic [ref=e176] [cursor=pointer]:
+              - img [ref=e177]
+              - img [ref=e179]
+              - generic [ref=e181]: components
+            - generic [ref=e184] [cursor=pointer]:
+              - img [ref=e185]
+              - generic [ref=e190]: PricingCard.jsx
+          - generic [ref=e192] [cursor=pointer]:
+            - img [ref=e193]
+            - generic [ref=e198]: App.jsx
+        - separator [ref=e199]
+        - code [ref=e204]:
+          - generic [ref=e205]:
+            - generic [ref=e207]:
+              - generic [ref=e210]: "1"
+              - generic [ref=e212]: "2"
+              - generic [ref=e213]:
+                - generic [ref=e214] [cursor=pointer]: 
+                - generic [ref=e215]: "3"
+              - generic [ref=e216]:
+                - generic [ref=e217] [cursor=pointer]: 
+                - generic [ref=e218]: "4"
+              - generic [ref=e220]: "5"
+              - generic [ref=e222]: "6"
+              - generic [ref=e224]: "7"
+              - generic [ref=e226]: "8"
+              - generic [ref=e228]: "9"
+              - generic [ref=e229]:
+                - generic [ref=e230] [cursor=pointer]: 
+                - generic [ref=e231]: "10"
+              - generic [ref=e233]: "11"
+              - generic [ref=e235]: "12"
+              - generic [ref=e237]: "13"
+              - generic [ref=e239]: "14"
+              - generic [ref=e241]: "15"
+              - generic [ref=e243]: "16"
+              - generic [ref=e245]: "17"
+              - generic [ref=e247]: "18"
+              - generic [ref=e248]:
+                - generic [ref=e249] [cursor=pointer]: 
+                - generic [ref=e250]: "19"
+              - generic [ref=e252]: "20"
+              - generic [ref=e254]: "21"
+              - generic [ref=e256]: "22"
+              - generic [ref=e258]: "23"
+              - generic [ref=e260]: "24"
+              - generic [ref=e261]:
+                - generic [ref=e262] [cursor=pointer]: 
+                - generic [ref=e263]: "25"
+              - generic [ref=e265]: "26"
+              - generic [ref=e267]: "27"
+              - generic [ref=e269]: "28"
+              - generic [ref=e271]: "29"
+              - generic [ref=e273]: "30"
+              - generic [ref=e275]: "31"
+              - generic [ref=e277]: "32"
+              - generic [ref=e279]: "33"
+              - generic [ref=e280]:
+                - generic [ref=e281] [cursor=pointer]: 
+                - generic [ref=e282]: "34"
+              - generic [ref=e284]: "35"
+              - generic [ref=e286]: "36"
+              - generic [ref=e288]: "37"
+              - generic [ref=e290]: "38"
+              - generic [ref=e292]: "39"
+              - generic [ref=e293]:
+                - generic [ref=e294] [cursor=pointer]: 
+                - generic [ref=e295]: "40"
+              - generic [ref=e297]: "41"
+              - generic [ref=e299]: "42"
+              - generic [ref=e301]: "43"
+              - generic [ref=e303]: "44"
+              - generic [ref=e305]: "45"
+              - generic [ref=e307]: "46"
+              - generic [ref=e309]: "47"
+              - generic [ref=e311]: "48"
+              - generic [ref=e313]: "49"
+            - generic [ref=e467]:
+              - generic [ref=e469]: import PricingCard from "@/components/PricingCard";
+              - generic [ref=e472]: const plans = [
+              - generic [ref=e474]: "{"
+              - generic [ref=e476]: "name: \"Starter\","
+              - generic [ref=e478]: "price: 9,"
+              - generic [ref=e480]: "description: \"Perfect for individuals and side projects.\","
+              - generic [ref=e482]: "accent: \"text-amber-400\","
+              - generic [ref=e484]: "badge: null,"
+              - generic [ref=e486]: "features: ["
+              - generic [ref=e488]: "{ text: \"3 projects\", included: true },"
+              - generic [ref=e490]: "{ text: \"5 GB storage\", included: true },"
+              - generic [ref=e492]: "{ text: \"Basic analytics\", included: true },"
+              - generic [ref=e494]: "{ text: \"Email support\", included: true },"
+              - generic [ref=e496]: "{ text: \"Custom domains\", included: false },"
+              - generic [ref=e498]: "{ text: \"Team collaboration\", included: false },"
+              - generic [ref=e500]: "],"
+              - generic [ref=e502]: "},"
+              - generic [ref=e504]: "{"
+              - generic [ref=e506]: "name: \"Pro\","
+              - generic [ref=e508]: "price: 29,"
+              - generic [ref=e510]: "description: \"For growing teams that need more power.\","
+              - generic [ref=e512]: "accent: \"text-rose-400\","
+              - generic [ref=e514]: "badge: \"Most Popular\","
+              - generic [ref=e516]: "features: ["
+              - generic [ref=e518]: "{ text: \"Unlimited projects\", included: true },"
+              - generic [ref=e520]: "{ text: \"50 GB storage\", included: true },"
+              - generic [ref=e522]: "{ text: \"Advanced analytics\", included: true },"
+              - generic [ref=e524]: "{ text: \"Priority support\", included: true },"
+              - generic [ref=e526]: "{ text: \"Custom domains\", included: true },"
+              - generic [ref=e528]: "{ text: \"Team collaboration\", included: false },"
+              - generic [ref=e530]: "],"
+              - generic [ref=e532]: "},"
+              - generic [ref=e534]: "{"
+              - generic [ref=e536]: "name: \"Scale\","
+              - generic [ref=e538]: "price: 79,"
+              - generic [ref=e540]: "description: \"Enterprise-grade for serious operations.\","
+              - generic [ref=e542]: "accent: \"text-teal-400\","
+              - generic [ref=e544]: "badge: null,"
+              - generic [ref=e546]: "features: ["
+              - generic [ref=e548]: "{ text: \"Unlimited projects\", included: true },"
+              - generic [ref=e550]: "{ text: \"500 GB storage\", included: true },"
+              - generic [ref=e552]: "{ text: \"Full analytics suite\", included: true },"
+              - generic [ref=e554]: "{ text: \"24/7 dedicated support\", included: true },"
+              - generic [ref=e556]: "{ text: \"Custom domains\", included: true },"
+              - generic [ref=e558]: "{ text: \"Team collaboration\", included: true },"
+              - generic [ref=e560]: "],"
+              - generic [ref=e562]: "},"
+              - generic [ref=e564]: "];"
+            - textbox "Editor content" [ref=e566]
+  - alert [ref=e47]
+  - generic [ref=e155]:
+    - alert
+    - alert
