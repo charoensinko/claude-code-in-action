@@ -37,15 +37,21 @@
       "Bash(gh issue *)",
       "Bash(gh run *)",
       "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000)",
-      "mcp__playwright__browser_console_messages"
+      "mcp__playwright__browser_console_messages",
+      "Bash(node hooks/read_hook.js)",
+      "Bash(echo \"exit=$?\")",
+      "Bash(node -e \"console.log\\('CLAUDE_PROJECT_DIR=', process.env.CLAUDE_PROJECT_DIR\\); console.log\\('PWD=', process.env.PWD\\)\")"
     ]
   },
   "hooks": {
-    "PreToolUse":[
+    "PreToolUse": [
       {
-        "matcher": "Read",
+        "matcher": "Read|Grep",
         "hooks": [
-          {"type": "command", "command": "node $PWD/hooks/read_hook.js"}
+          {
+            "type": "command",
+            "command": "node \"$CLAUDE_PROJECT_DIR/hooks/read_hook.js\""
+          }
         ]
       }
     ]
