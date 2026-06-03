@@ -1,0 +1,457 @@
+[     291ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_compiled_2ce9398a._.js:16383
+[    4568ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14983
+[    6546ms] [LOG] [Fast Refresh] done in 2089ms @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14847
+[   10253ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ about:srcdoc:0
+[   10889ms] [WARNING] cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation @ https://cdn.tailwindcss.com/:63
+[   11410ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ about:srcdoc:0
+[   11419ms] [WARNING] cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation @ https://cdn.tailwindcss.com/:63
+[   13037ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ about:srcdoc:0
+[   13054ms] [WARNING] cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation @ https://cdn.tailwindcss.com/:63
+[   35925ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14983
+[   36161ms] [LOG] [Fast Refresh] done in 345ms @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14847
+[   74421ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14983
+[   74618ms] [LOG] [Fast Refresh] done in 299ms @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14847
+[  116176ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14983
+[  116335ms] [LOG] [Fast Refresh] done in 244ms @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14847
+[  134680ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_compiled_2ce9398a._.js:16383
+[  135563ms] [LOG] [Fast Refresh] done in NaNms @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14847
+[  548310ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14983
+[  548375ms] [LOG] [Fast Refresh] done in 173ms @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14847
+[  551184ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14983
+[  551228ms] [LOG] [Fast Refresh] done in 152ms @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14847
+[  551356ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14983
+[  552000ms] [ERROR] ./node_modules/remark-rehype/lib/index.js:36:1
+Module not found: Can't resolve 'mdast-util-to-hast'
+  34 |  */
+  35 |
+> 36 | import {toHast} from 'mdast-util-to-hast'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  37 |
+  38 | /**
+  39 |  * Turn markdown into HTML.
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:1225
+[  552158ms] [ERROR] ./node_modules/remark-rehype/lib/index.js:36:1
+Module not found: Can't resolve 'mdast-util-to-hast'
+  34 |  */
+  35 |
+> 36 | import {toHast} from 'mdast-util-to-hast'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  37 |
+  38 | /**
+  39 |  * Turn markdown into HTML.
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:1225
+[  552246ms] [ERROR] ./node_modules/remark-rehype/lib/index.js:36:1
+Module not found: Can't resolve 'mdast-util-to-hast'
+  34 |  */
+  35 |
+> 36 | import {toHast} from 'mdast-util-to-hast'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  37 |
+  38 | /**
+  39 |  * Turn markdown into HTML.
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:1225
+[  552355ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14983
+[  552639ms] [ERROR] ./node_modules/remark-rehype/lib/index.js:36:1
+Module not found: Can't resolve 'mdast-util-to-hast'
+  34 |  */
+  35 |
+> 36 | import {toHast} from 'mdast-util-to-hast'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  37 |
+  38 | /**
+  39 |  * Turn markdown into HTML.
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:1225
+[  552702ms] [ERROR] ./node_modules/remark-rehype/lib/index.js:36:1
+Module not found: Can't resolve 'mdast-util-to-hast'
+  34 |  */
+  35 |
+> 36 | import {toHast} from 'mdast-util-to-hast'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  37 |
+  38 | /**
+  39 |  * Turn markdown into HTML.
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:1225
+[  552808ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14983
+[  553785ms] [ERROR] ./node_modules/remark-rehype/lib/index.js:36:1
+Module not found: Can't resolve 'mdast-util-to-hast'
+  34 |  */
+  35 |
+> 36 | import {toHast} from 'mdast-util-to-hast'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  37 |
+  38 | /**
+  39 |  * Turn markdown into HTML.
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:1225
+[  553785ms] [ERROR] ./node_modules/@ai-sdk/provider-utils/dist/index.mjs:149:1
+Module not found: Can't resolve 'nanoid/non-secure'
+  147 | // src/generate-id.ts
+  148 | import { InvalidArgumentError } from "@ai-sdk/provider";
+> 149 | import { customAlphabet } from "nanoid/non-secure";
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  150 | var createIdGenerator = ({
+  151 |   prefix,
+  152 |   size: defaultSize = 16,
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:1225
+[  553786ms] [ERROR] ./node_modules/next/node_modules/postcss/lib/input.js:6:18
+Module not found: Can't resolve 'nanoid/non-secure'
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:1225
+[  555118ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14983
+[  555994ms] [ERROR] ./node_modules/remark-rehype/lib/index.js:36:1
+Module not found: Can't resolve 'mdast-util-to-hast'
+  34 |  */
+  35 |
+> 36 | import {toHast} from 'mdast-util-to-hast'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  37 |
+  38 | /**
+  39 |  * Turn markdown into HTML.
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:1225
+[  555994ms] [ERROR] ./node_modules/@ai-sdk/provider-utils/dist/index.mjs:149:1
+Module not found: Can't resolve 'nanoid/non-secure'
+  147 | // src/generate-id.ts
+  148 | import { InvalidArgumentError } from "@ai-sdk/provider";
+> 149 | import { customAlphabet } from "nanoid/non-secure";
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  150 | var createIdGenerator = ({
+  151 |   prefix,
+  152 |   size: defaultSize = 16,
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:1225
+[  555995ms] [ERROR] ./node_modules/next/node_modules/postcss/lib/input.js:6:18
+Module not found: Can't resolve 'nanoid/non-secure'
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:1225
+[  556098ms] [ERROR] ./node_modules/remark-rehype/lib/index.js:36:1
+Module not found: Can't resolve 'mdast-util-to-hast'
+  34 |  */
+  35 |
+> 36 | import {toHast} from 'mdast-util-to-hast'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  37 |
+  38 | /**
+  39 |  * Turn markdown into HTML.
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:1225
+[  556099ms] [ERROR] ./node_modules/@ai-sdk/provider-utils/dist/index.mjs:149:1
+Module not found: Can't resolve 'nanoid/non-secure'
+  147 | // src/generate-id.ts
+  148 | import { InvalidArgumentError } from "@ai-sdk/provider";
+> 149 | import { customAlphabet } from "nanoid/non-secure";
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  150 | var createIdGenerator = ({
+  151 |   prefix,
+  152 |   size: defaultSize = 16,
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:1225
+[  556099ms] [ERROR] ./node_modules/next/node_modules/postcss/lib/input.js:6:18
+Module not found: Can't resolve 'nanoid/non-secure'
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:1225
+[  556148ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14983
+[  560777ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14983
+[  560782ms] [ERROR] ./node_modules/remark-rehype/lib/index.js:36:1
+Module not found: Can't resolve 'mdast-util-to-hast'
+  34 |  */
+  35 |
+> 36 | import {toHast} from 'mdast-util-to-hast'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  37 |
+  38 | /**
+  39 |  * Turn markdown into HTML.
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:1225
+[  560782ms] [ERROR] ./node_modules/@ai-sdk/provider-utils/dist/index.mjs:149:1
+Module not found: Can't resolve 'nanoid/non-secure'
+  147 | // src/generate-id.ts
+  148 | import { InvalidArgumentError } from "@ai-sdk/provider";
+> 149 | import { customAlphabet } from "nanoid/non-secure";
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  150 | var createIdGenerator = ({
+  151 |   prefix,
+  152 |   size: defaultSize = 16,
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:1225
+[  560782ms] [ERROR] ./node_modules/next/node_modules/postcss/lib/input.js:6:18
+Module not found: Can't resolve 'nanoid/non-secure'
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:1225
+[  560949ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14983
+[  561118ms] [ERROR] ./node_modules/remark-rehype/lib/index.js:36:1
+Module not found: Can't resolve 'mdast-util-to-hast'
+  34 |  */
+  35 |
+> 36 | import {toHast} from 'mdast-util-to-hast'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  37 |
+  38 | /**
+  39 |  * Turn markdown into HTML.
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:1225
+[  561119ms] [ERROR] ./node_modules/@ai-sdk/provider-utils/dist/index.mjs:149:1
+Module not found: Can't resolve 'nanoid/non-secure'
+  147 | // src/generate-id.ts
+  148 | import { InvalidArgumentError } from "@ai-sdk/provider";
+> 149 | import { customAlphabet } from "nanoid/non-secure";
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  150 | var createIdGenerator = ({
+  151 |   prefix,
+  152 |   size: defaultSize = 16,
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:1225
+[  561119ms] [ERROR] ./node_modules/next/node_modules/postcss/lib/input.js:6:18
+Module not found: Can't resolve 'nanoid/non-secure'
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:1225
+[  561220ms] [ERROR] ./node_modules/remark-rehype/lib/index.js:36:1
+Module not found: Can't resolve 'mdast-util-to-hast'
+  34 |  */
+  35 |
+> 36 | import {toHast} from 'mdast-util-to-hast'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  37 |
+  38 | /**
+  39 |  * Turn markdown into HTML.
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:1225
+[  561221ms] [ERROR] ./node_modules/@ai-sdk/provider-utils/dist/index.mjs:149:1
+Module not found: Can't resolve 'nanoid/non-secure'
+  147 | // src/generate-id.ts
+  148 | import { InvalidArgumentError } from "@ai-sdk/provider";
+> 149 | import { customAlphabet } from "nanoid/non-secure";
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  150 | var createIdGenerator = ({
+  151 |   prefix,
+  152 |   size: defaultSize = 16,
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:1225
+[  561221ms] [ERROR] ./node_modules/next/node_modules/postcss/lib/input.js:6:18
+Module not found: Can't resolve 'nanoid/non-secure'
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:1225
+[  561325ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14983
+[  561541ms] [ERROR] ./node_modules/remark-rehype/lib/index.js:36:1
+Module not found: Can't resolve 'mdast-util-to-hast'
+  34 |  */
+  35 |
+> 36 | import {toHast} from 'mdast-util-to-hast'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  37 |
+  38 | /**
+  39 |  * Turn markdown into HTML.
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:1225
+[  561541ms] [ERROR] ./node_modules/@ai-sdk/provider-utils/dist/index.mjs:149:1
+Module not found: Can't resolve 'nanoid/non-secure'
+  147 | // src/generate-id.ts
+  148 | import { InvalidArgumentError } from "@ai-sdk/provider";
+> 149 | import { customAlphabet } from "nanoid/non-secure";
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  150 | var createIdGenerator = ({
+  151 |   prefix,
+  152 |   size: defaultSize = 16,
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:1225
+[  561542ms] [ERROR] ./node_modules/next/node_modules/postcss/lib/input.js:6:18
+Module not found: Can't resolve 'nanoid/non-secure'
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:1225
+[  561667ms] [ERROR] ./node_modules/remark-rehype/lib/index.js:36:1
+Module not found: Can't resolve 'mdast-util-to-hast'
+  34 |  */
+  35 |
+> 36 | import {toHast} from 'mdast-util-to-hast'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  37 |
+  38 | /**
+  39 |  * Turn markdown into HTML.
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:1225
+[  561668ms] [ERROR] ./node_modules/@ai-sdk/provider-utils/dist/index.mjs:149:1
+Module not found: Can't resolve 'nanoid/non-secure'
+  147 | // src/generate-id.ts
+  148 | import { InvalidArgumentError } from "@ai-sdk/provider";
+> 149 | import { customAlphabet } from "nanoid/non-secure";
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  150 | var createIdGenerator = ({
+  151 |   prefix,
+  152 |   size: defaultSize = 16,
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:1225
+[  561668ms] [ERROR] ./node_modules/next/node_modules/postcss/lib/input.js:6:18
+Module not found: Can't resolve 'nanoid/non-secure'
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:1225
+[  561760ms] [ERROR] ./node_modules/remark-rehype/lib/index.js:36:1
+Module not found: Can't resolve 'mdast-util-to-hast'
+  34 |  */
+  35 |
+> 36 | import {toHast} from 'mdast-util-to-hast'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  37 |
+  38 | /**
+  39 |  * Turn markdown into HTML.
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:1225
+[  561761ms] [ERROR] ./node_modules/@ai-sdk/provider-utils/dist/index.mjs:149:1
+Module not found: Can't resolve 'nanoid/non-secure'
+  147 | // src/generate-id.ts
+  148 | import { InvalidArgumentError } from "@ai-sdk/provider";
+> 149 | import { customAlphabet } from "nanoid/non-secure";
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  150 | var createIdGenerator = ({
+  151 |   prefix,
+  152 |   size: defaultSize = 16,
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:1225
+[  561761ms] [ERROR] ./node_modules/next/node_modules/postcss/lib/input.js:6:18
+Module not found: Can't resolve 'nanoid/non-secure'
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:1225
+[  561825ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14983
+[  561876ms] [ERROR] ./node_modules/remark-rehype/lib/index.js:36:1
+Module not found: Can't resolve 'mdast-util-to-hast'
+  34 |  */
+  35 |
+> 36 | import {toHast} from 'mdast-util-to-hast'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  37 |
+  38 | /**
+  39 |  * Turn markdown into HTML.
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:1225
+[  561876ms] [ERROR] ./node_modules/@ai-sdk/provider-utils/dist/index.mjs:149:1
+Module not found: Can't resolve 'nanoid/non-secure'
+  147 | // src/generate-id.ts
+  148 | import { InvalidArgumentError } from "@ai-sdk/provider";
+> 149 | import { customAlphabet } from "nanoid/non-secure";
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  150 | var createIdGenerator = ({
+  151 |   prefix,
+  152 |   size: defaultSize = 16,
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:1225
+[  561876ms] [ERROR] ./node_modules/next/node_modules/postcss/lib/input.js:6:18
+Module not found: Can't resolve 'nanoid/non-secure'
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:1225
+[  561931ms] [ERROR] ./node_modules/remark-rehype/lib/index.js:36:1
+Module not found: Can't resolve 'mdast-util-to-hast'
+  34 |  */
+  35 |
+> 36 | import {toHast} from 'mdast-util-to-hast'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  37 |
+  38 | /**
+  39 |  * Turn markdown into HTML.
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:1225
+[  561932ms] [ERROR] ./node_modules/@ai-sdk/provider-utils/dist/index.mjs:149:1
+Module not found: Can't resolve 'nanoid/non-secure'
+  147 | // src/generate-id.ts
+  148 | import { InvalidArgumentError } from "@ai-sdk/provider";
+> 149 | import { customAlphabet } from "nanoid/non-secure";
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  150 | var createIdGenerator = ({
+  151 |   prefix,
+  152 |   size: defaultSize = 16,
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:1225
+[  561932ms] [ERROR] ./node_modules/next/node_modules/postcss/lib/input.js:6:18
+Module not found: Can't resolve 'nanoid/non-secure'
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:1225
+[  561998ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14983
+[  562148ms] [ERROR] ./node_modules/remark-rehype/lib/index.js:36:1
+Module not found: Can't resolve 'mdast-util-to-hast'
+  34 |  */
+  35 |
+> 36 | import {toHast} from 'mdast-util-to-hast'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  37 |
+  38 | /**
+  39 |  * Turn markdown into HTML.
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:1225
+[  562149ms] [ERROR] ./node_modules/@ai-sdk/provider-utils/dist/index.mjs:149:1
+Module not found: Can't resolve 'nanoid/non-secure'
+  147 | // src/generate-id.ts
+  148 | import { InvalidArgumentError } from "@ai-sdk/provider";
+> 149 | import { customAlphabet } from "nanoid/non-secure";
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  150 | var createIdGenerator = ({
+  151 |   prefix,
+  152 |   size: defaultSize = 16,
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:1225
+[  562149ms] [ERROR] ./node_modules/next/node_modules/postcss/lib/input.js:6:18
+Module not found: Can't resolve 'nanoid/non-secure'
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:1225
+[  562194ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14983
+[  562258ms] [ERROR] ./node_modules/remark-rehype/lib/index.js:36:1
+Module not found: Can't resolve 'mdast-util-to-hast'
+  34 |  */
+  35 |
+> 36 | import {toHast} from 'mdast-util-to-hast'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  37 |
+  38 | /**
+  39 |  * Turn markdown into HTML.
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:1225
+[  562259ms] [ERROR] ./node_modules/@ai-sdk/provider-utils/dist/index.mjs:149:1
+Module not found: Can't resolve 'nanoid/non-secure'
+  147 | // src/generate-id.ts
+  148 | import { InvalidArgumentError } from "@ai-sdk/provider";
+> 149 | import { customAlphabet } from "nanoid/non-secure";
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  150 | var createIdGenerator = ({
+  151 |   prefix,
+  152 |   size: defaultSize = 16,
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:1225
+[  562259ms] [ERROR] ./node_modules/next/node_modules/postcss/lib/input.js:6:18
+Module not found: Can't resolve 'nanoid/non-secure'
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:1225
+[  562369ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14983
+[  563209ms] [LOG] [Fast Refresh] done in 799ms @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14847
+[  563378ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14983
+[  563576ms] [LOG] [Fast Refresh] done in 304ms @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14847
+[  747390ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14983
+[  747579ms] [LOG] [Fast Refresh] done in 291ms @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14847
+[  756865ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14983
+[  757072ms] [LOG] [Fast Refresh] done in 314ms @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14847
+[  850299ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14983
+[  850549ms] [LOG] [Fast Refresh] done in 360ms @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14847
+[  868897ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14983
+[  869136ms] [LOG] [Fast Refresh] done in 345ms @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14847
+[  879000ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14983
+[  879175ms] [LOG] [Fast Refresh] done in 283ms @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14847
+[  883607ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14983
+[  883701ms] [LOG] [Fast Refresh] done in 200ms @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14847
+[ 1332837ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14983
+[ 1333197ms] [LOG] [Fast Refresh] done in 469ms @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14847
+[ 1339459ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14983
+[ 1339460ms] [LOG] [Fast Refresh] done in 116ms @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14847
+[ 1424558ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14983
+[ 1424602ms] [LOG] [Fast Refresh] done in 128ms @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14847
+[ 1424871ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14983
+[ 1424952ms] [LOG] [Fast Refresh] done in 190ms @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14847
+[ 1514122ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14983
+[ 1514141ms] [LOG] [Fast Refresh] done in 114ms @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14847
+[ 1514343ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14983
+[ 1514442ms] [LOG] [Fast Refresh] done in 201ms @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14847
+[ 1514562ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14983
+[ 1514880ms] [LOG] [Fast Refresh] done in 430ms @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14847
+[ 1770521ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14983
+[ 1770711ms] [LOG] [Fast Refresh] done in 297ms @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:14847

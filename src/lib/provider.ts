@@ -1,4 +1,5 @@
 import { anthropic } from "@ai-sdk/anthropic";
+import { createOpenAI } from "@ai-sdk/openai";
 import {
   LanguageModelV1,
   LanguageModelV1StreamPart,
@@ -6,6 +7,10 @@ import {
 } from "@ai-sdk/provider";
 
 const MODEL = "claude-haiku-4-5";
+
+// Default OpenRouter model. Override with the OPENROUTER_MODEL env var.
+const OPENROUTER_MODEL = "anthropic/claude-sonnet-4.6";
+const OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1";
 
 export class MockLanguageModel implements LanguageModelV1 {
   readonly specificationVersion = "v1" as const;
@@ -506,17 +511,32 @@ export default function App() {
   }
 }
 
-export function getLanguageModel() {
-  const apiKey = process.env.ANTHROPIC_API_KEY?.trim();
+function isUsableKey(key: string | undefined): key is string {
+  return !!key && key !== "your-api-key-here";
+}
 
-  if (!apiKey || apiKey === "your-api-key-here") {
-    console.log(
-      "ANTHROPIC_API_KEY is not set (or is still the placeholder). " +
-        "Using the mock provider — responses will be canned. " +
-        "Set a real key in .env to generate components with Claude."
-    );
-    return new MockLanguageModel("mock-" + MODEL);
+export function getLanguageModel() {
+  const anthropicKey = process.env.ANTHROPIC_API_KEY?.trim();
+  const openRouterKey = process.env.OPENROUTER_API_KEY?.trim();
+
+  // Prefer Anthropic when its key is present, otherwise fall back to OpenRouter.
+  if (isUsableKey(anthropicKey)) {
+    return anthropic(MODEL);
   }
 
-  return anthropic(MODEL);
+  if (isUsableKey(openRouterKey)) {
+    const openrouter = createOpenAI({
+      apiKey: openRouterKey,
+      baseURL: OPENROUTER_BASE_URL,
+    });
+    const model = process.env.OPENROUTER_MODEL?.trim() || OPENROUTER_MODEL;
+    return openrouter(model);
+  }
+
+  console.log(
+    "Neither ANTHROPIC_API_KEY nor OPENROUTER_API_KEY is set (or both are still the placeholder). " +
+      "Using the mock provider — responses will be canned. " +
+      "Set a real key in .env to generate components with Claude."
+  );
+  return new MockLanguageModel("mock-" + MODEL);
 }

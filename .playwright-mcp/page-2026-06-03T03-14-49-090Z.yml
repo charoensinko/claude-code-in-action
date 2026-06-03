@@ -1,0 +1,73 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e53]:
+          - generic [ref=e54]:
+            - generic [ref=e57]: Create a login form with email and password fields and a sign-in button.
+            - img [ref=e60]
+          - generic [ref=e76]:
+            - img [ref=e79]
+            - generic [ref=e84]:
+              - generic [ref=e87]: Creating App.jsx
+              - separator [ref=e88]
+              - generic [ref=e89]:
+                - paragraph [ref=e90]: "Here's your login form! It features:"
+                - list [ref=e91]:
+                  - listitem [ref=e92]:
+                    - strong [ref=e93]: Email & password fields
+                    - text: with smooth focus states and hover transitions
+                  - listitem [ref=e94]:
+                    - strong [ref=e95]: Show/hide password toggle
+                    - text: with an eye icon
+                  - listitem [ref=e96]:
+                    - strong [ref=e97]: Sign in button
+                    - text: with a warm amber-to-orange gradient
+                  - listitem [ref=e98]:
+                    - strong [ref=e99]: "\"Forgot?\" link"
+                    - text: and a
+                    - strong [ref=e100]: "\"Create one\""
+                    - text: sign-up prompt
+                  - listitem [ref=e101]:
+                    - text: A dark, editorial aesthetic using a
+                    - strong [ref=e102]: stone/amber palette
+                    - text: with a radial glow background, dot texture, serif headline, and mono accent labels — far from the typical blue-card-on-gray look
+        - generic [ref=e20]:
+          - textbox "Describe the React component you want to create..." [ref=e21]
+          - button [disabled] [ref=e22]:
+            - img [ref=e23]
+    - separator [ref=e26]
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - tablist [ref=e31]:
+          - tab "Preview" [selected] [ref=e32]
+          - tab "Code" [ref=e33]
+        - generic [ref=e34]:
+          - button "Sign In" [ref=e35]
+          - button "Sign Up" [ref=e36]
+      - iframe [ref=e103]:
+        - generic [ref=f6e7]:
+          - generic [ref=f6e9]:
+            - generic [ref=f6e10]:
+              - paragraph [ref=f6e11]: Welcome back
+              - heading "Sign in" [level=1] [ref=f6e12]
+            - generic [ref=f6e13]:
+              - generic [ref=f6e14]:
+                - text: Email
+                - textbox "you@example.com" [ref=f6e15]
+              - generic [ref=f6e16]:
+                - generic [ref=f6e17]:
+                  - generic [ref=f6e18]: Password
+                  - button "Forgot?" [ref=f6e19] [cursor=pointer]
+                - generic [ref=f6e20]:
+                  - textbox "••••••••" [ref=f6e21]
+                  - button "Toggle password visibility" [ref=f6e22] [cursor=pointer]:
+                    - img [ref=f6e23]
+              - button "Sign in →" [ref=f6e26] [cursor=pointer]
+            - generic [ref=f6e29]: or
+            - paragraph [ref=f6e31]:
+              - text: No account?
+              - button "Create one" [ref=f6e32] [cursor=pointer]
+          - paragraph [ref=f6e33]: Secured · Encrypted
+  - alert [ref=e47]
